@@ -24,7 +24,7 @@ export async function fintechRoutes(app: FastifyInstance) {
       request.log.info(`[fintechRoutes] DB client check: ${!!db}`);
 
       return {
-        success: true,
+        success:  true,
         balance: 1500.00,
         currency: "USD",
       };
